@@ -12,7 +12,7 @@
           "type": "string",
           "not": {
             "enum": [
-              "deco-sites/start/functions/LoadGitHubRaw.ts",
+              "deco-sites/s-start/functions/LoadGitHubRaw.ts",
               "deco-sites/std/functions/butterCMSAds.ts",
               "deco-sites/std/functions/butterCMSBrands.ts",
               "deco-sites/std/functions/butterCMSCategories.ts",
@@ -72,9 +72,9 @@
               "$live/sections/PageInclude.tsx",
               "$live/sections/Slot.tsx",
               "$live/sections/UseSlot.tsx",
-              "deco-sites/start/sections/DesignSystem.tsx",
-              "deco-sites/start/sections/GetStarted.tsx",
-              "deco-sites/start/sections/Head.tsx",
+              "deco-sites/s-start/sections/DesignSystem.tsx",
+              "deco-sites/s-start/sections/GetStarted.tsx",
+              "deco-sites/s-start/sections/Head.tsx",
               "deco-sites/std/sections/Analytics.tsx",
               "deco-sites/std/sections/configButterCMS.global.tsx",
               "deco-sites/std/sections/configOCC.global.tsx",
@@ -122,7 +122,7 @@
         }
       }
     },
-    "ZGVjby1zaXRlcy9zdGFydC9mdW5jdGlvbnMvTG9hZEdpdEh1YlJhdy50cw==@Props": {
+    "ZGVjby1zaXRlcy9zLXN0YXJ0L2Z1bmN0aW9ucy9Mb2FkR2l0SHViUmF3LnRz@Props": {
       "type": "object",
       "properties": {
         "repo": {
@@ -146,7 +146,7 @@
         "branch",
         "path"
       ],
-      "title": "deco-sites/start/functions/LoadGitHubRaw.ts@Props"
+      "title": "deco-sites/s-start/functions/LoadGitHubRaw.ts@Props"
     },
     "ZGVjby1zaXRlcy9zdGQvY29tbWVyY2UvYnV0dGVyQ01TL3R5cGVzLnRz@Category": {
       "type": "object",
@@ -7154,7 +7154,7 @@
       ],
       "title": "deco-cx/live/sections/UseSlot.tsx@Props"
     },
-    "ZGVjby1zaXRlcy9zdGFydC9zZWN0aW9ucy9EZXNpZ25TeXN0ZW0udHN4@Colors": {
+    "ZGVjby1zaXRlcy9zLXN0YXJ0L3NlY3Rpb25zL0Rlc2lnblN5c3RlbS50c3g=@Colors": {
       "type": "object",
       "properties": {
         "primary": {
@@ -7360,7 +7360,7 @@
       ],
       "title": "Colors"
     },
-    "ZGVjby1zaXRlcy9zdGFydC9zZWN0aW9ucy9EZXNpZ25TeXN0ZW0udHN4@Miscellaneous": {
+    "ZGVjby1zaXRlcy9zLXN0YXJ0L3NlY3Rpb25zL0Rlc2lnblN5c3RlbS50c3g=@Miscellaneous": {
       "type": "object",
       "properties": {
         "--rounded-box": {
@@ -7438,7 +7438,7 @@
       ],
       "title": "Miscellaneous"
     },
-    "ZGVjby1zaXRlcy9zdGFydC9zZWN0aW9ucy9EZXNpZ25TeXN0ZW0udHN4@Font": {
+    "ZGVjby1zaXRlcy9zLXN0YXJ0L3NlY3Rpb25zL0Rlc2lnblN5c3RlbS50c3g=@Font": {
       "type": "object",
       "properties": {
         "fontFamily": {
@@ -7457,26 +7457,26 @@
       ],
       "title": "Font"
     },
-    "ZGVjby1zaXRlcy9zdGFydC9zZWN0aW9ucy9EZXNpZ25TeXN0ZW0udHN4@Props": {
+    "ZGVjby1zaXRlcy9zLXN0YXJ0L3NlY3Rpb25zL0Rlc2lnblN5c3RlbS50c3g=@Props": {
       "type": "object",
       "properties": {
         "colors": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGFydC9zZWN0aW9ucy9EZXNpZ25TeXN0ZW0udHN4@Colors",
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zLXN0YXJ0L3NlY3Rpb25zL0Rlc2lnblN5c3RlbS50c3g=@Colors",
           "title": "Colors"
         },
         "miscellaneous": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGFydC9zZWN0aW9ucy9EZXNpZ25TeXN0ZW0udHN4@Miscellaneous",
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zLXN0YXJ0L3NlY3Rpb25zL0Rlc2lnblN5c3RlbS50c3g=@Miscellaneous",
           "title": "Miscellaneous"
         },
         "fonts": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGFydC9zZWN0aW9ucy9EZXNpZ25TeXN0ZW0udHN4@Font",
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zLXN0YXJ0L3NlY3Rpb25zL0Rlc2lnblN5c3RlbS50c3g=@Font",
           "title": "Fonts"
         }
       },
       "required": [],
-      "title": "deco-sites/start/sections/DesignSystem.tsx@Props"
+      "title": "deco-sites/s-start/sections/DesignSystem.tsx@Props"
     },
-    "ZGVjby1zaXRlcy9zdGFydC9zZWN0aW9ucy9HZXRTdGFydGVkLnRzeA==@Props": {
+    "ZGVjby1zaXRlcy9zLXN0YXJ0L3NlY3Rpb25zL0dldFN0YXJ0ZWQudHN4@Props": {
       "type": "object",
       "properties": {
         "enableInspectVSCode": {
@@ -7488,9 +7488,9 @@
         }
       },
       "required": [],
-      "title": "deco-sites/start/sections/GetStarted.tsx@Props"
+      "title": "deco-sites/s-start/sections/GetStarted.tsx@Props"
     },
-    "ZGVjby1zaXRlcy9zdGFydC9zZWN0aW9ucy9IZWFkLnRzeA==@Props": {
+    "ZGVjby1zaXRlcy9zLXN0YXJ0L3NlY3Rpb25zL0hlYWQudHN4@Props": {
       "type": "object",
       "properties": {
         "title": {
@@ -7526,7 +7526,7 @@
         "faviconUrl",
         "themeColor"
       ],
-      "title": "deco-sites/start/sections/Head.tsx@Props"
+      "title": "deco-sites/s-start/sections/Head.tsx@Props"
     },
     "ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy9BbmFseXRpY3MudHN4@Props": {
       "type": "object",
@@ -8611,13 +8611,13 @@
       ],
       "title": "deco-sites/std/packs/vtex/actions/wishlist/removeItem.ts@Props"
     },
-    "ZGVjby1zaXRlcy9zdGFydC9mdW5jdGlvbnMvTG9hZEdpdEh1YlJhdy50cw==": {
+    "ZGVjby1zaXRlcy9zLXN0YXJ0L2Z1bmN0aW9ucy9Mb2FkR2l0SHViUmF3LnRz": {
       "title": "GitHub Raw Loader",
       "description": "Grabs data from a GitHub repo",
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGFydC9mdW5jdGlvbnMvTG9hZEdpdEh1YlJhdy50cw==@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zLXN0YXJ0L2Z1bmN0aW9ucy9Mb2FkR2l0SHViUmF3LnRz@Props"
         }
       ],
       "required": [
@@ -8627,9 +8627,9 @@
         "__resolveType": {
           "type": "string",
           "enum": [
-            "deco-sites/start/functions/LoadGitHubRaw.ts"
+            "deco-sites/s-start/functions/LoadGitHubRaw.ts"
           ],
-          "default": "deco-sites/start/functions/LoadGitHubRaw.ts"
+          "default": "deco-sites/s-start/functions/LoadGitHubRaw.ts"
         }
       }
     },
@@ -9847,12 +9847,12 @@
         }
       }
     },
-    "ZGVjby1zaXRlcy9zdGFydC9zZWN0aW9ucy9EZXNpZ25TeXN0ZW0udHN4": {
-      "title": "deco-sites/start/sections/DesignSystem.tsx",
+    "ZGVjby1zaXRlcy9zLXN0YXJ0L3NlY3Rpb25zL0Rlc2lnblN5c3RlbS50c3g=": {
+      "title": "deco-sites/s-start/sections/DesignSystem.tsx",
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGFydC9zZWN0aW9ucy9EZXNpZ25TeXN0ZW0udHN4@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zLXN0YXJ0L3NlY3Rpb25zL0Rlc2lnblN5c3RlbS50c3g=@Props"
         }
       ],
       "required": [
@@ -9862,18 +9862,18 @@
         "__resolveType": {
           "type": "string",
           "enum": [
-            "deco-sites/start/sections/DesignSystem.tsx"
+            "deco-sites/s-start/sections/DesignSystem.tsx"
           ],
-          "default": "deco-sites/start/sections/DesignSystem.tsx"
+          "default": "deco-sites/s-start/sections/DesignSystem.tsx"
         }
       }
     },
-    "ZGVjby1zaXRlcy9zdGFydC9zZWN0aW9ucy9HZXRTdGFydGVkLnRzeA==": {
-      "title": "deco-sites/start/sections/GetStarted.tsx",
+    "ZGVjby1zaXRlcy9zLXN0YXJ0L3NlY3Rpb25zL0dldFN0YXJ0ZWQudHN4": {
+      "title": "deco-sites/s-start/sections/GetStarted.tsx",
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGFydC9zZWN0aW9ucy9HZXRTdGFydGVkLnRzeA==@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zLXN0YXJ0L3NlY3Rpb25zL0dldFN0YXJ0ZWQudHN4@Props"
         }
       ],
       "required": [
@@ -9883,18 +9883,18 @@
         "__resolveType": {
           "type": "string",
           "enum": [
-            "deco-sites/start/sections/GetStarted.tsx"
+            "deco-sites/s-start/sections/GetStarted.tsx"
           ],
-          "default": "deco-sites/start/sections/GetStarted.tsx"
+          "default": "deco-sites/s-start/sections/GetStarted.tsx"
         }
       }
     },
-    "ZGVjby1zaXRlcy9zdGFydC9zZWN0aW9ucy9IZWFkLnRzeA==": {
-      "title": "deco-sites/start/sections/Head.tsx",
+    "ZGVjby1zaXRlcy9zLXN0YXJ0L3NlY3Rpb25zL0hlYWQudHN4": {
+      "title": "deco-sites/s-start/sections/Head.tsx",
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGFydC9zZWN0aW9ucy9IZWFkLnRzeA==@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zLXN0YXJ0L3NlY3Rpb25zL0hlYWQudHN4@Props"
         }
       ],
       "required": [
@@ -9904,9 +9904,9 @@
         "__resolveType": {
           "type": "string",
           "enum": [
-            "deco-sites/start/sections/Head.tsx"
+            "deco-sites/s-start/sections/Head.tsx"
           ],
-          "default": "deco-sites/start/sections/Head.tsx"
+          "default": "deco-sites/s-start/sections/Head.tsx"
         }
       }
     },
@@ -10804,7 +10804,7 @@
           "$ref": "#/definitions/Resolvable"
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGFydC9mdW5jdGlvbnMvTG9hZEdpdEh1YlJhdy50cw=="
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zLXN0YXJ0L2Z1bmN0aW9ucy9Mb2FkR2l0SHViUmF3LnRz"
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvZnVuY3Rpb25zL2J1dHRlckNNU0Fkcy50cw=="
@@ -11032,13 +11032,13 @@
           "$ref": "#/definitions/JGxpdmUvc2VjdGlvbnMvVXNlU2xvdC50c3g="
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGFydC9zZWN0aW9ucy9EZXNpZ25TeXN0ZW0udHN4"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zLXN0YXJ0L3NlY3Rpb25zL0Rlc2lnblN5c3RlbS50c3g="
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGFydC9zZWN0aW9ucy9HZXRTdGFydGVkLnRzeA=="
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zLXN0YXJ0L3NlY3Rpb25zL0dldFN0YXJ0ZWQudHN4"
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGFydC9zZWN0aW9ucy9IZWFkLnRzeA=="
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zLXN0YXJ0L3NlY3Rpb25zL0hlYWQudHN4"
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvc2VjdGlvbnMvQW5hbHl0aWNzLnRzeA=="
